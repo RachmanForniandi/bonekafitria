@@ -14,8 +14,8 @@ if($_GET){
 		include login_validasi.php;
 	break;
 	case 'Logout':
-		if(!file_exists("login_out.php")) die("Sorry,Empty Main Page !");
-		include login_out.php;
+		if(!file_exists("logout.php")) die("Sorry,Empty Main Page !");
+		include logout.php;
 	break;
 	case 'Halaman Utaman':
 		if(!file_exists("main.php")) die("Sorry,Empty Main Page !");

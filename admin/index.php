@@ -3,7 +3,7 @@ session_start();
 include_once "../library/inc.connection.php";
 include_once "../library/inc.library.php";
 ?>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text-html"; charset="=iso-8859-1">
 <title>TOKO BONEKA FITRIA - Toko Boneka Online Lengkap</title>

@@ -60,7 +60,7 @@ function lastday($month = '', $year= ''){
 	return date('d', $result);
 }
 
-function lastday($month = '', $year= ''){
+function lastmonth($month = '', $year= ''){
 	if(empty($month)){
 	$month=date('m');	
 	}
@@ -71,7 +71,6 @@ function lastday($month = '', $year= ''){
 	$result=strtotime('-1 second',strtotime('+1 month', $result));
 	return date('m', $result);
 }
-
 function format_angka($angka){
 	if($angka > 1){
 	$hasil = number_format($angka,0, ",",",",".");
