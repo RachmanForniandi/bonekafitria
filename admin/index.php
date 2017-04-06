@@ -23,6 +23,9 @@ tinymce.init({
 <body>
 <table width="100%" class="table-main">
 	<tr>
+    	<td height="103" colspan="2"><a href="?open"><div id="header">&nbsp;</div></a></td>
+        </tr>
+    <tr valign="top">
     	<td width="15%" style="border-right:5px solid #DDDDDD;">
         	<div style="margin:5px; padding:5px;"><?php include "menu.php";?></div>
         </td>
