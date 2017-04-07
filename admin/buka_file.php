@@ -27,6 +27,25 @@ if($_GET){
 		if(!file_exists("password_admin.php")) die("Sorry,Empty Main Page !");
 		include "password_admin.php";
 	break;
+	
+	#Data_Provinsi
+	case 'Provinsi-Data':
+		if(!file_exists("provinsi_data.php"))die("Empty Page!");
+		include "provinsi_data.php";
+	break;
+	case 'Provinsi-Add':
+		if(!file_exists("provinsi-add.php"))die("Empty Page!");
+		include "provinsi-add.php";
+	break;
+		case 'Provinsi-Edit':
+		if(!file_exists("provinsi_edit.php"))die("Empty Page!");
+		include "provinsi_edit.php";
+	break;
+	case 'Provinsi-Delete':
+		if(!file_exists("provinsi_delete.php"))die("Empty Page!");
+		include "provinsi_delete.php";
+	break;
+	
 	}
 }
 ?>
